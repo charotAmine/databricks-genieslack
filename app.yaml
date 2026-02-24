@@ -1,0 +1,21 @@
+command: ["python", "app.py"]
+
+env:
+  - name: SLACK_BOT_TOKEN
+    value: "xoxb-your-bot-token"
+  - name: SLACK_SIGNING_SECRET
+    value: "your-signing-secret"
+  - name: SLACK_APP_TOKEN
+    value: "xapp-your-app-token"
+  - name: DATABRICKS_HOST
+    value: "https://e2-demo-field-eng.cloud.databricks.com"
+  - name: DATABRICKS_TOKEN
+    value: "${DATABRICKS_TOKEN}"
+  - name: DATABRICKS_GENIE_SPACE_ID
+    value: "01f10d7be4741f07802902d51e0eb11b"
+  - name: LOG_LEVEL
+    value: "INFO"
+  - name: GENIE_POLL_INTERVAL
+    value: "2"
+  - name: GENIE_MAX_WAIT
+    value: "90"
