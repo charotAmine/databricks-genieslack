@@ -19,5 +19,3 @@ env:
     value: "2"
   - name: GENIE_MAX_WAIT
     value: "90"
-
-
